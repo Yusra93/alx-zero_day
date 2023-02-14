@@ -1,0 +1,15 @@
+git clone https://{YOUR_PERSONAL_TOKEN}@github.com/Yusra93/alx-pre_course.git
+echo 'My first readme' > README.md 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git add .
+git commit -m 'My first commit'
+git push 
+git checkout -b update_script; git commit -m "My personal work"
+git push --set-upstream origin update_script
+git cheackout master
+git pull --rebase origin master
+git push origin master
+git fetch origin          # fetch all changes
+git pull origin master # pull changes from the origin remote, master branch and merge them into my_branch
+

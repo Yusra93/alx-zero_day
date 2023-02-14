@@ -8,8 +8,8 @@ git push
 git checkout -b update_script; git commit -m "My personal work"
 git push --set-upstream origin update_script
 git cheackout master
-git pull --rebase origin master
-git push origin master
+git pull --rebase origin master #or git push -f
+git push origin master  #or git push -f
 git fetch origin          # fetch all changes
 git pull origin master # pull changes from the origin remote, master branch and merge them into my_branch
 
